@@ -166,6 +166,9 @@ button:hover{
     .profile-image{
         width: 120px;
     }
+    .social-icons{
+        justify-content: center;
+    }
     
 }
 .logo{
