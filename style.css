@@ -2,7 +2,7 @@
 body{
     margin: 0;
     font-family: Arial;
-    background: linear-gradient(135deg, #000000, #1f4037, #99f2c8);
+    background: linear-gradient(135deg, #667eea, #764ba2);
 
 }
 
@@ -54,7 +54,7 @@ body{
 
 /* ===== COMMON SECTION STYLE ===== */
 .section{
-    background: rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.5);
     margin: 20px auto;
     padding: 25px;
     width: 80%;
@@ -64,14 +64,19 @@ body{
 /* ===== SKILLS CONTAINER ===== */
 .skill-container{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+.skill-heading{
+    text-align: left;
 }
 
 /* skill cards */
 .skill-card{
     background: royalblue;
-    margin: 10px;
+    margin-top: 50px;
     padding: 10px 20px;
     border-radius: 6px;
     transition: 0.3s;
@@ -121,7 +126,7 @@ button:hover{
     color: #ccc;
 }
 .social-icons{
-    margin-top: 20px;
+    margin-left: 800px;
 
 }
 .social-icons a{
@@ -163,4 +168,8 @@ button:hover{
     }
     
 }
+.logo{
+    margin-right: 10px;
+}
+
 
