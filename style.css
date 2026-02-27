@@ -91,7 +91,7 @@ body{
 
 /* ===== COMMON SECTION STYLE ===== */
 .section{
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.3);
     margin: 20px auto;
     padding: 25px;
     width: 80%;
@@ -108,9 +108,11 @@ body{
 }
 .skill-heading{
     text-align: left;
+    color: white;
 }
 .project-heading{
     text-align: left;
+    color: white;
 }
 
 /* skill cards */
@@ -130,11 +132,12 @@ body{
 
 /* ===== PROJECT CARDS ===== */
 .project-card{
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.2);
     margin: 15px;
     padding: 15px;
     border-radius: 10px;
     transition: 0.3s;
+    color: white;
 }
 
 /* project hover */
@@ -205,8 +208,12 @@ button:hover{
         width: 95%;
         padding: 15px;
         flex-direction: column;
-        background:rgba(0,0,0,0.3);
+        background:rgba(0,0,0,0.2);
 
+    }
+    .project-card{
+    background: rgba(0,0,0,0.2);
+    color: white;
     }
     .skill-container{
         flex-direction: column;
