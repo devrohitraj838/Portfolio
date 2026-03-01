@@ -3,18 +3,15 @@ body{
     font-family: Arial, sans-serif;
 
     background: linear-gradient(
-        -45deg,
-        #0f2027,
-        #203a43,
-        #2c5364,
-        #1a2980,
-        #6a11cb,
-        #2575fc
-    );
-
-    background-size: 400% 400%;
-
-    animation: gradientMove 15s ease infinite;
+    135deg,
+    #0f0c29 0%,
+    #302b63 25%,
+    #24243e 50%,
+    #1a1a3e 75%,
+    #16213e 100%
+);
+background-size: 400% 400%;
+animation: gradientMove 15s ease infinite;
 }
 
 @keyframes gradientMove{
@@ -44,6 +41,7 @@ body{
     align-items: center;
     background: rgba(0,0,0,0.3);
     padding: 15px 40px;
+    color: white;
 }
 
 
