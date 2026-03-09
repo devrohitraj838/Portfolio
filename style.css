@@ -132,7 +132,7 @@ animation: gradientMove 15s ease infinite;
 /* ===== PROJECT CARDS ===== */
 .project-card{
     background: rgba(0,0,0,0.2);
-    margin: 15px;
+    margin: 30px 15px;
     padding: 15px;
     border-radius: 10px;
     transition: 0.3s;
